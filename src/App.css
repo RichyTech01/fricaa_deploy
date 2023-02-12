@@ -722,8 +722,8 @@ border: none;
                 position: absolute;
                 width: 95%;
                 height: 55px;
-                left: 0.9em;
-                top: 540px;
+                left: 0.7em;
+                top: 500px;
                  background: linear-gradient(101.77deg, #F94A3F 19.56%, #E4317D 70.6%);
                border-radius: 32px;
                font-family: 'Inter';
@@ -736,7 +736,7 @@ border: none;
                 position: absolute;
                 width: 95%;
                 height: 55px;
-                left: 0.9em;
+                left: 0.7em;
                 top: 500px;
                  background: linear-gradient(101.77deg, #F94A3F 19.56%, #E4317D 70.6%);
                border-radius: 32px;
@@ -1205,14 +1205,28 @@ border: none;
                                   align-items: center;
                                   color: #968C9E;
                                   }
-                           
+                                  #submit:disabled {
+                                    position: absolute;
+                                    width: 94%;
+                                    height: 55px;
+                                    left: 0.6em;
+                                    top: 590px;
+                                     background: linear-gradient(101.77deg, #F94A3F 19.56%, #E4317D 70.6%);
+                                   border-radius: 32px;
+                                   font-family: 'Inter';
+                                   font-size: 17px;
+                                   text-align: center;
+                                   cursor: cell;
+                                   color: #FFFFFF;
+                                   opacity: 0.3;
+                                }
                             
                             #submit:enabled {
                                 position: absolute;
-                                width: 95%;
+                                width: 94%;
                                 height: 55px;
-                                left: 0.9em;
-                                top: 540px;
+                                left: 0.6em;
+                                top: 590px;
                                  background: linear-gradient(101.77deg, #F94A3F 19.56%, #E4317D 70.6%);
                                border-radius: 32px;
                                font-family: 'Inter';
@@ -1270,7 +1284,7 @@ border: none;
                       
                         .all-cont{
                             width: 100%;
-                            margin-left: 2.3em;
+                            margin-left: 1.5em;
                             display: flex;
                             flex-direction: column;
                             flex-wrap: wrap;
@@ -1455,14 +1469,28 @@ border: none;
                                   align-items: center;
                                   color: #968C9E;
                                   }
-                           
+                                  #submit:disabled {
+                                    position: absolute;
+                                    width: 94%;
+                                    height: 55px;
+                                    left: 0.6em;
+                                    top: 590px;
+                                     background: linear-gradient(101.77deg, #F94A3F 19.56%, #E4317D 70.6%);
+                                   border-radius: 32px;
+                                   font-family: 'Inter';
+                                   font-size: 17px;
+                                   text-align: center;
+                                   cursor: cell;
+                                   color: #FFFFFF;
+                                   opacity: 0.3;
+                                }
                             
                             #submit:enabled {
                                 position: absolute;
-                                width: 95%;
+                                width: 94%;
                                 height: 55px;
-                                left: 0.9em;
-                                top: 540px;
+                                left: 0.7em;
+                                top: 590px;
                                  background: linear-gradient(101.77deg, #F94A3F 19.56%, #E4317D 70.6%);
                                border-radius: 32px;
                                font-family: 'Inter';
